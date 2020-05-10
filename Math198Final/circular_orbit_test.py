@@ -30,12 +30,12 @@ fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 8))
 
 ax1.set_title('circular orbit test')
 ax1.plot(xs, ys)
-ax1.set_xlabel('v')
-ax1.set_ylabel('psi')
+ax1.set_xlabel('t')
+ax1.set_ylabel('x')
 
 ax2.set_title('trajectory')
-ax2.set_xlabel('psi')
-ax2.set_ylabel('d/dv (psi)')
+ax2.set_xlabel('x')
+ax2.set_ylabel('y')
 ax2.plot(U_x, U_y)
 
 plt.show()
